@@ -9,7 +9,7 @@ const coffees = {
   espresso: {
     id: 1,
     type: "Hot",
-    "country of origin": "Italy",
+    country: "Italy",
     introduced: 1901,
     color: "Black",
     description:
@@ -18,7 +18,7 @@ const coffees = {
   mocha: {
     id: 2,
     type: "Beverage (Hot and Iced), Milk coffee",
-    "country of origin": "Yemen",
+    country: "Yemen",
     introduced: 1892,
     color: "Brown",
     description:
@@ -27,7 +27,7 @@ const coffees = {
   americano: {
     id: 3,
     type: "Beverage",
-    "country of origin": "Italy or Latin America",
+    country: "Italy or Latin America",
     introduced: 1927,
     color: "Black",
     description:
@@ -36,7 +36,7 @@ const coffees = {
   cappuccino: {
     id: 4,
     type: "Hot",
-    "country of origin": "Italy",
+    country: "Italy",
     introduced: 1805,
     color: "Black, dark brown, beige, light brown, white",
     description:
@@ -45,7 +45,7 @@ const coffees = {
   "café au lait": {
     id: 5,
     type: "Hot",
-    "country of origin": "Italy",
+    country: "Italy",
     introduced: 1940,
     color: "Shades of brown, white",
     description:
@@ -54,7 +54,7 @@ const coffees = {
   macchiato: {
     id: 6,
     type: "Beverage",
-    "country of origin": "Italy",
+    country: "Italy",
     introduced: 1980,
     color: "Light brown",
     description:
@@ -63,7 +63,7 @@ const coffees = {
   "irish coffee": {
     id: 7,
     type: "Hot",
-    "country of origin": "Ireland",
+    country: "Ireland",
     introduced: 1952,
     color: "White, dark brown",
     description:
@@ -72,7 +72,7 @@ const coffees = {
   "vietnamese coffee": {
     id: 8,
     type: "Beverage",
-    "country of origin": "Vietnam",
+    country: "Vietnam",
     introduced: 1857,
     color: "Black",
     description:
@@ -81,7 +81,7 @@ const coffees = {
   affogato: {
     id: 9,
     type: "Beverage",
-    "country of origin": "Italy",
+    country: "Italy",
     introduced: 1950,
     color: "Brown",
     description:
@@ -90,7 +90,7 @@ const coffees = {
   "red eye": {
     id: 10,
     type: "Beverage",
-    "country of origin": "US",
+    country: "US",
     introduced: 1945,
     color: "Brown",
     description:
@@ -99,7 +99,7 @@ const coffees = {
   unknown: {
     id: 11,
     type: "unknown",
-    "country of origin": "unknown",
+    country: "unknown",
     introduced: "unknown",
     color: "unknown",
     description: "unknown",
