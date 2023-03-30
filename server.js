@@ -110,6 +110,10 @@ app.get("/", (request, response) => {
   response.sendFile(__dirname + "/index.html");
 });
 
+app.get("/api/coffees", (request, response) => {
+  response.json(coffees);
+});
+
 app.get("/api/:coffeeName", (request, response) => {
   const coffeeNames = request.params.coffeeName.toLowerCase();
   // console.log(coffees[coffeeNames].description);
