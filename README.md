@@ -1,4 +1,5 @@
 # Coffee API
+
 The Coffee API is a RESTful API that provides information about different types of coffee. The API allows users to retrieve a list of coffees with their respective type, country origin, year of introduction, color, and description. In the future, the API will also include a recipe on how to make each coffee.
 
 ## How It's Made:
@@ -26,6 +27,7 @@ The Coffee API is a RESTful API that provides information about different types 
 <p>The server should now be running on http://localhost:3000.<p/>
 
 ## Endpoints
+
 <p>Description: Returns a list of all available coffee drinks</p>
 <p>`/api/coffees`</p>
 <p>Method: GET</p>
@@ -35,7 +37,6 @@ The Coffee API is a RESTful API that provides information about different types 
 <p>`/api/:coffeeName`</p>
 <p>Method: GET</p>
 
-
 ## Lessons Learned:
 
 <p>Throughout the process of creating my coffee API, I learned a lot about software development and project management. One of the biggest lessons I learned was the importance of thorough planning and documentation. Before starting the actual coding, I spent a lot of time researching and defining the API's endpoints, data models, and authentication methods. This helped me avoid major issues and confusion down the line.</p>
@@ -43,5 +44,3 @@ The Coffee API is a RESTful API that provides information about different types 
 <p>Another lesson I learned was the importance of testing and debugging. Even though I tried my best to anticipate potential errors and bugs, there were still unexpected issues that arose during development. Through the process of debugging and fixing these issues, I gained valuable experience in troubleshooting and problem-solving.</p>
 
 <p>Overall, creating this coffee API was a challenging yet rewarding experience. It allowed me to apply my programming skills in a real-world setting and learn new technologies and tools along the way. I'm excited to continue working on this project and improving it further.</p>
-
-
