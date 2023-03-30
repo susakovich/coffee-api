@@ -116,7 +116,6 @@ app.get("/api/coffees", (request, response) => {
 
 app.get("/api/:coffeeName", (request, response) => {
   const coffeeNames = request.params.coffeeName.toLowerCase();
-  // console.log(coffees[coffeeNames].description);
   if (coffees[coffeeNames]) {
     response.json(coffees[coffeeNames]);
   } else {
