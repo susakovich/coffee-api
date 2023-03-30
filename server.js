@@ -124,6 +124,6 @@ app.get("/api/:coffeeName", (request, response) => {
   }
 });
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
   console.log(`Server is running on port ${PORT}. Enjoy your coffee.`);
 });
